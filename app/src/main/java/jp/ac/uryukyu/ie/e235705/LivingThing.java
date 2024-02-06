@@ -64,56 +64,26 @@ public class LivingThing {
         }
     }
     
-    /**
-     * 生物のHPを返却するメソッド。
-     * 
-     * @return 敵のHP
-     */
     public int getHitPoint(){
         return this.hitPoint;
     }
 
-    /**
-     * 生物の攻撃力を返却するメソッド。
-     * 
-     * @return 生物の攻撃力
-     */
     public int getAttack(){
         return this.attack;
     }
 
-    /**
-     * 生物の名前を設定するメソッド。
-     * 
-     * @param name 生物の名前
-     */
     public void setName(String name){
         this.name = name;
     }
 
-    /**
-     * 生物のHPを設定するメソッド。
-     * 
-     * @param hitPoint 生物のHP
-     */
     public void setHitPoint(int hitPoint){
         this.hitPoint = hitPoint;
     }
 
-    /**
-     * 生物の攻撃力を設定するメソッド。
-     * 
-     * @param attack 生物の攻撃力
-     */
     public void setAttack(int attack){
         this.attack = attack;
     }
 
-    /**
-     * 生物の生死状態を設定するメソッド。
-     * 
-     * @param dead 生物の生死状態
-     */
     public void setDead(boolean dead){
         this.dead = dead;
     }
